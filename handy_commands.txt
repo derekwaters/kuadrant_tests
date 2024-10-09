@@ -1,0 +1,3 @@
+kind delete cluster kuadrant-local
+
+kubectl -n kuadrant-system get tlspolicy -o json
